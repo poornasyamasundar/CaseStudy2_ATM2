@@ -1,6 +1,7 @@
 # CaseStudy2_ATM2
 The code contains 6 classes and 2 interfaces and files is used as database.
 
+
   1.Solution class : The program executes from the main menu of the class.
   
   2.Login class : takes care of verifying the customer and admin login details and directs them to CustomerTasks and AdminTasks respectively
@@ -17,6 +18,7 @@ The code contains 6 classes and 2 interfaces and files is used as database.
   
   8.BankCustomer class: contains all the attributes of a customer with set and get methods for these attributes
   
+  
   files and folders part of the code:
   
   1.Pins.txt contains account numbers and their pins in encrypted form for login purposes
@@ -25,12 +27,18 @@ The code contains 6 classes and 2 interfaces and files is used as database.
   
   3.folder BankCustomers contains all the account holders files with accountnumber.txt as names and contains all the personal details along with
     balance and transaction history of the customer.
+    
   
   Steps to run the program:
   
     Execute the code by running the solution class and proceed as per the given options( Menu Driven ) ( No GUI)
     
+    
  All the account numbers and pins along with admin userId and password are provided in the file OriginalPins.txt( it is not the part of the code )
+ 
+ To get the details of accounts linked to a particular account open the account file in BankCustomers , the second line contains all the accounts linked , if
+ 
+ there are no accounts then the second line will be 000000
  
  All indivisual constraints with all common constraints are implemented;
  
